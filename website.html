@@ -2,20 +2,151 @@
 <html lang="in">
 <head>
 				<meta charset="UTF-8">
-				<title>Fadil Web</title>
+				<meta name="title" content="Fadil Web">
+				<meta name="description" content="Web Tentang Fadil">
+				<meta name="keywords" content="Fadil Web">
+  <meta name="google" content="nopagereadaloud" />
+		  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>Web Fadil</title>
+				<style>
+								
+				   body {
+							color : #333;	
+							font-variant : small-caps;	
+							text-align : center;
+							}
+				   
+				   
+			    	a {
+				   text-decoration : none;
+				   color : royalblue;
+				   }
+				   
+				   .Judul {
+				   	margin : auto;
+								background-color : white;
+								border-top : 5px solid black;
+								border-left : 5px solid black;
+								border-right : 5px solid black;
+								border-bottom : 5px solid black;
+				   }
+				   
+				   .awal {
+				   border-bottom : 5px solid black;
+				   }
+				   
+				   .awal .Pengawalan {
+				   margin-top : 10px;
+							font-family : serif;
+				   }
+				   
+				   .awal ul li {
+				   display : inline-block;
+							margin-left : -50px;
+							margin-top : -50px;
+							padding : 25px;
+				   }
+				   
+				   .form {
+				   border-bottom : 5px solid black;
+				   border-top : 5px solid black;
+				   padding : 20px;
+				   }
+				   
+				   .nulis .penulis {
+				   font-size : 11px;
+							margin-top : 3px;
+							text-align : left;
+							margin-left : 5px;
+							margin-bottom : 5px;
+							padding : 5px;
+				   }
+				   
+				   .Perkenalan {
+				   border-bottom : 5px solid black;
+				   text-align : left;
+				   font-size : 13px;
+				   }
+				   
+				   .Perkenalan .margin1 {
+				   margin-right: 20px;
+				   margin-left : 10px;
+				   }
+				   
+				   .info .margin2 {
+				   margin-right: 20px;
+				   margin-left : 10px;
+				   }
+				   
+				   .info {
+				   border-bottom : 5px solid black;
+				   text-align : left;
+				   font-size : 13px;
+				   }
+				   
+				   .konten {
+				   text-align : left;
+				   border-bottom : 5px solid black;
+       }
+       
+       .konten .img {
+       margin-right: 0px;
+				   margin-left : -40px;
+       }
+       
+       .konten ul li {
+       display : inline-block;
+       }
+       
+       .konten .margin3 {
+       margin-right: 20px;
+				   margin-left : 5px;
+       }
+       
+       .konten .txt {
+       margin-left : -35px;
+       margin-top : 5px;
+       }
+       
+       .penutup {
+       font-size : 13px;
+       margin : 14px;
+       }
+       
+       .footer {
+						  background-color : #333;
+						  color : white;
+						  padding : 5px;
+						  border-top : 5px solid black;
+						  }
+						  
+						  .footer .copy {
+						  font-size : 12px;
+						  font-variant : none;
+						  }
+						  
+				</style>
 </head>
 <body>
-				
 <!-- Bagian Awal -->
-<center>
-<hr>
-			<font color = "blue"><h1>FADIL WEB</h1></font>
-<hr>
+<div class="Judul">
+				<div class="awal">
+			<font color = "blue"><h1 class="Pengawalan">FADIL WEB</h1></font>
+		       	<ul>
+			  			    		<li><a href = "https://youtube.com/c/FadilSyhptra">YouTube</a> |</li>
+			  				    	<li><a href = "https://www.instagram.com/fadilsyhputra_0726/">Instagram</a> |</li>
+			  			    		<li><a href = "https://fadilsyhptra.itch.io/">Game Buatan Ku</a></li>
+			      	</ul>
+</div>
+<!-- Penulis -->
+<div class="nulis">
+<p class= "penulis"><strong>Ditulis oleh : Muhammad Fadil Syahputra</strong></p>
+</div>
 <!-- Form -->
+<div class="form">
 <form>
    <h4>Masukan Input Dibawah</h4>
-   <label for= "Username"><h4>Nama Kamu:</h4></label>
-   <input type = "title" id = "Username">
+   <input type = "title" id = "Username" placeholder= "Nama Kamu..." style= "	width : 100%; margin-bottom : 15px; border-radius : 5px; border : 1px solid #86b0b6;">
    <p><strong>Sudah Subscribe Belum?</strong></p>
    <label for= "udh"><br><strong>Sudah Subscribe</label>
    <input type = "radio"id = "udh" name= "subs">
@@ -23,38 +154,42 @@
    <label for= "blm"><br>Belum Subscribe</strong></label>
    <input type = "radio" id = "blm" name= "subs">
    <br><br>
-   <button type = "submit" onclick ="alert ('Jawabanmu Sudah Terkirim')">Kirim</button>
+   <button type = "submit" onclick ="alert ('Jawabanmu Sudah Terkirim')" style= "border : 0; padding : 10px 30px; background : #86b0b6; border-radius : 5px; color : #fff;" >Kirim</button>
 </form>
-<hr>
+</div>
 
 <!-- Perkenalan -->
-<h2>Web Ini Dibuat Oleh Fadil Syhptra</h2>
-<dl>
-				<dt>Fadil itu Siapa?</dt>
+<div class="Perkenalan">
+<h2 class="margin1">Web Ini Dibuat Oleh Fadil Syhptra</h2>
+<dl class="margin1">
+			<dt>Fadil itu Siapa?</dt>
 				<dd>Fadil adalah seorang youtuber indonesia yang kontennya berisi tentang: Pembuatan Game, Main Game, Dan Membuat Web</dd>
 </dl>
-<hr>
+</div>
 
 <!-- Informasi -->
-<h2>Saya Membuat Web Ini Menggunakan HTML</h2>
-<h3>Apa Arti Dari HTML?</h3>
-<dl>
-  <dt>HTML ADALAH</dt>
-  <dd>HTML adalah bahasa yang digunakan untuk membuat halaman web. Bagi yang berkecimpung di dunia perangkat gadget dan ilmu komputer, pasti sudah tidak asing lagi dengan berbagai kode di dalamnya. HTML adalah kependekan dari Hypertext Markup Language.</dd>
-<hr>
-
-<!-- Link -->
-<h2>Selengkapnya Tentang Fadil:</h2>
-<h3>
-<a href = "https://youtube.com/c/FadilSyhptra">Channel YouTube Saya</a>
-<br><br>
-<a href = "https://www.instagram.com/fadilsyhputra_0726/">Instagram Saya</a>
-<p>Download Game Buatan Gua <a href = "https://fadilsyhptra.itch.io/">Disini</a>
-<hr>
-</h3>
-
+<div class="info">
+<h2 class="margin2">Saya Membuat Web Ini Menggunakan HTML</h2>
+<h3 class="margin2">Apa Arti Dari HTML?</h3>
+<dl class="margin2">
+  <dt class="margin2">HTML ADALAH</dt>
+  <dd class="margin2">HTML adalah bahasa yang digunakan untuk membuat halaman web. Bagi yang berkecimpung di dunia perangkat gadget dan ilmu komputer, pasti sudah tidak asing lagi dengan berbagai kode di dalamnya. HTML adalah kependekan dari Hypertext Markup Language.</dd>
+</div>
+<!-- Konten -->
+<div class="konten">
+				<dl class="margin3">
+			 <dt class="margin3"><h3>Web Yang Udah Gua Buat</h3>
+				<dd class="margin3"><ul>
+						<a href="https://fadilsyhptra.github.io/Seputar-One-Piece/kamus.html"><li><img src="p.jpg" width="50%" class="img"></li><h5 class="txt">Seputar One Piece</h5></a>
+				</ul></dd>
+</div>
 <!-- Penutup -->
+<div class="penutup">
 <h3>Terimakasih Yang Telah Berkunjung Ke Web Buatan Ku!!! Semoga Kalian Sehat Selalu yaa :></h3>
-</center>
+</div>
+<div class="footer">
+		    		<p class="copy">Copyright 2021. Muhammad Fadil Syahputra.</p>
+    </div>
+</div>
 </body>
 </html>
